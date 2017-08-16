@@ -10,12 +10,16 @@
 </head>
 
 <body class="grey darken-4">
-  <nav class="nav-wrapper">
-    <a href="home.html" class="brand-logo left"><img src="logo.png" alt="Logo" class="logo"></a>
+   <nav class="nav-wrapper">
+    <a href="home.html" class="brand-logo left"><img src="logo.png" alt="Logo" class="logo"> </a>
     <ul id="nav-mobile" class="right hide-on-med-and-down">
-      <li><a href="home.html">About</a></li>
-      <li><a href="work.html">Work</a></li>
+      <li><a href="home.html"><i class="material-icons">home</i></a></li>
+      <li><a href="work.html"><i class="material-icons">work</i></a></li>
       <li><a href="contact.html"><i class="material-icons">contacts</i></a></li>
+      <ul class="right hide-on-med-and-down">
+        <!-- Dropdown Trigger -->
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
     </ul>
   </nav>
   <main class="valign-wrapper center-align row">
@@ -34,6 +38,7 @@
   </main>
   <!-- JAVASCRIPT -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+  <script src="port.js"></script>
 </body>
 
 </html>
