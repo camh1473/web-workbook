@@ -72,15 +72,15 @@ main{
 }
 
 .bigbox, .smallbox {
-	transition: transform 300ms ease-in-out;
+	transition: transform 800ms ease-in-out;
 }
 
 
 #boxes:hover .smallbox{
 	
-	transform: translate(-200px, 0px)rotate(-35deg);
+	transform: translate(-200px, 0px)rotate(-35deg) scale(-.5);
 }
 #boxes:hover .bigbox{
 	
-	transform: translate(200px, 0px)rotate(-35deg);
+	transform: translate(200px, 0px)rotate(35deg) scale(1.5);
 }
