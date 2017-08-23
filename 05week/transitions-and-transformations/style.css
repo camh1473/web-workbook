@@ -78,7 +78,7 @@ main{
 
 #boxes:hover .smallbox{
 	
-	transform: translate(-200px, 0px)rotate(-35deg) scale(-.5);
+	transform: translate(-200px, 0px)rotate(-35deg) scale(.5);
 }
 #boxes:hover .bigbox{
 	
